@@ -99,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickStop(View view) {
         startButton.setVisibility(View.VISIBLE);
         playPauseButton.setVisibility(View.INVISIBLE);
+        playPauseButton.setText("PAUSE");
         stopButton.setVisibility(View.INVISIBLE);
         running = false;
         miliSecondsPassed = 0;
